@@ -1,0 +1,4 @@
+..\..\..\pkg\mod\google.golang.org\grpc@v1.44.0\credentials\credentials.go:31:2: missing go.sum entry for module providing package github.com/golang/protobuf/proto (imported by google.golang.org/grpc/credentials); to add:
+	go get google.golang.org/grpc/credentials@v1.44.0
+..\..\..\pkg\mod\google.golang.org\grpc@v1.44.0\internal\binarylog\method_logger.go:28:2: missing go.sum entry for module providing package github.com/golang/protobuf/ptypes (imported by google.golang.org/grpc/internal/binarylog); to add:
+	go get google.golang.org/grpc/internal/binarylog@v1.44.0

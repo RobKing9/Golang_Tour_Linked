@@ -1,0 +1,4 @@
+# Gorm
+.\gorm.go:30:14: not enough arguments in call to db.NewRecord
+	have ()
+	want (interface {})

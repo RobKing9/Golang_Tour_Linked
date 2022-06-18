@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package pb;
+
+option go_package = "consul/pb/person;person";
+
+message Person {
+  string name = 1;
+  int32 age = 2;
+}
+
+service SayHello {
+  rpc greet(Person) returns (Person);
+}
